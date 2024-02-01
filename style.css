@@ -1,4 +1,87 @@
+
+@import url('https://fonts.cdnfonts.com/css/youtube-sans');
+
 *{
     padding: 0;
     margin: 0;
+}
+
+#header{
+    border: 1px solid gray;
+    height: 155px;
+}
+
+#menu{
+    width: 817px;
+    height: 100px;
+    margin: 50px auto 0;
+}
+#header > #menu > .items:hover{
+    font-size: 16px;
+    line-height: 35px;
+    background-size: 75px 75px;
+    background-position: 50% 90%;
+}
+
+#header > #menu > .items{
+    transition: 1s;
+    width: 100px;
+    height: 100%;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+    line-height: 165px;
+}
+
+#header > #menu > .it1{
+    background: url(./Img/facebook.png) no-repeat 50% 30%;
+    background-size: 70px 70px ;
+    color: #1877f2;
+}
+#header > #menu > .it2{
+    background: url(./Img/youtube.png) no-repeat 50% 30%;
+    background-size: 70px 70px ;
+    color: #ff0000;
+    font-family: 'YouTube Sans';
+}
+#header > #menu > .it3{
+    background: url(./Img/whatsapp.png) no-repeat 50% 30%;
+    background-size: 70px 70px ;
+    color: #25d366;
+}
+#header > #menu > .it4{
+    background: url(./Img/instagram.png) no-repeat 50% 30%;
+    background-size: 70px 70px ;
+    color: #c32aa3;
+    
+}
+#header > #menu > .it5{
+    background: url(./Img/telegram.png) no-repeat 50% 30%;
+    background-size: 70px 70px ;
+    color: #0088cc;
+}
+#header > #menu > .it6{
+    background: url(./Img/twitter.png) no-repeat 50% 30%;
+    background-size: 70px 70px ;
+    color: #1da1f2;
+}
+#header > #menu > .it7{
+    background: url(./Img/pinterest.png) no-repeat 50% 30%;
+    background-size: 70px 70px ;
+    color: #bd081c;
+}
+#header > #menu > .it8{
+    background: url(./Img/linkdin.png) no-repeat 50% 30%;
+    background-size: 70px 70px ;
+    color: #0a66c2;
+}
+#content{
+    border: 1px solid gray;
+    height: 1500px;
+}
+
+#footer{
+    border: 1px solid gray;
+    height: 200px;
+    background-color: rgb(41, 41, 41);
 }
